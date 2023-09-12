@@ -1846,8 +1846,9 @@ textarea.w-input, textarea.w-select {
 }
 
 .w-nav {
-  z-index: 1000;
-  background: #ddd;
+  width: 75%;
+  z-index: 99;
+  background-color: #ddd;
   position: relative;
 }
 
@@ -1908,6 +1909,7 @@ textarea.w-input, textarea.w-select {
 
 .w-nav-overlay {
   width: 100%;
+  z-index: 888;
   display: none;
   position: absolute;
   top: 100%;
@@ -5321,6 +5323,8 @@ a {
   align-items: center;
   margin-left: 3.44em;
   margin-right: 3.44em;
+  position: relative;
+  z-index: 888;
   display: flex;
 }
 
@@ -6360,11 +6364,12 @@ a {
   }
 
   .navbar {
-    width: 100%;
+    width: 1%;
     margin-bottom: 3em;
     padding-left: 0;
     padding-right: 0;
     position: fixed;
+    z-index: 99;
   }
 
   .short {
@@ -6388,6 +6393,8 @@ a {
   .navbar-container {
     align-items: flex-start;
     margin-left: 2em;
+    position: relative;
+    z-index: 99;
     margin-right: 2em;
   }
 
@@ -8106,4 +8113,9 @@ a {
 
 #w-node-_0866128d-9c1b-2a48-bbb5-e4cca4d8bb7d-f62adfdb, #w-node-_0866128d-9c1b-2a48-bbb5-e4cca4d8bb95-f62adfdb, #w-node-_0866128d-9c1b-2a48-bbb5-e4cca4d8bba1-f62adfdb, #w-node-_0866128d-9c1b-2a48-bbb5-e4cca4d8bba3-f62adfdb, #w-node-_0866128d-9c1b-2a48-bbb5-e4cca4d8bba5-f62adfdb {
   grid-area: span 1 / span 1 / span 1 / span 1;
+}
+.bpw-chat-container{
+  position: absolute;
+  background-color: black;
+  z-index: 999;
 }
