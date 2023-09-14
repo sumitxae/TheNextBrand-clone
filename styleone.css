@@ -1846,7 +1846,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .w-nav {
-  width: 75%;
+  width: 70%;
   z-index: 99;
   background-color: #ddd;
   position: relative;
@@ -4093,6 +4093,9 @@ a {
   font-size: 3.54em;
   font-weight: 500;
   line-height: 1.15;
+}
+.heading-large img{
+  height: 30%;
 }
 
 .heading-large.shrink {
